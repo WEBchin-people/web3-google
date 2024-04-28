@@ -2,6 +2,8 @@
 
 중간고사 이전에 공부했던 개념을 다시 복습할 겸 아래 구글 페이지를 똑같이 만들어보자.
 
+**중간고사 끝난 시점부터 3아웃 제도 시행.**
+
 **-> 5/1까지 완료**
 
 <img width="1470" alt="image" src="https://github.com/WEBchin-people/web3-google/assets/129304827/8cdefaad-3ca3-4e40-9b21-b41ecb2d709e">
