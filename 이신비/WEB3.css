@@ -1,0 +1,106 @@
+body{
+    background-color: #2b2a2d;
+    display:flex;
+    flex-direction: column;
+}
+
+.Top{
+    color: white;
+    display:grid;
+    grid-template-columns: 143px 90px 1210px 75px 90px 50px 110px;
+    padding: 20px 30px 30px 0px;
+}
+
+.top{
+    color: white;
+    font-size:20px;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+#login {
+    width: 133px;
+    height: 50px;
+    font-size: 20px;
+    border: #282828;
+    border-radius: 7px;
+    color: #070707;
+    text-align: center;
+    margin-top: -7px;
+    margin-left: 28px;
+    background-color: #88adf6;
+}
+
+.center {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.title {
+    font-size: 120px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding-bottom: 30px;
+    margin-right: 15px;
+    font-weight: bold;
+    
+}
+
+.search {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#textbox {
+    border: 0.3px solid rgb(208, 232, 247);
+    border-radius: 20px;
+    width: 500px;
+    height: 40px;
+    background-color: #2b2a2d;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.acc{
+    width: 1000px;
+    display: flex;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 15px 400px 53px 45px 20px;
+    height: 65px;
+    font-size: 27px;
+    padding-top: 13px;
+    padding-left: 15px;
+}
+
+.buttons{
+    height: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+#button1, #button2{
+    background-color: #363636;
+    border-radius: 7px;
+    color: white;
+    font-size: 15px;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+} 
+
+#button1 {
+    margin-right: 17px;
+}
