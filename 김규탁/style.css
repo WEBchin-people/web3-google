@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    background-color: rgb(34, 36, 36);
+    flex-direction: column;
+}
+
+
+
+.center {
+    position: fixed;
+    
+    width: 600px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction:row; 
+    color:white;
+    border: 2px gray solid;
+    border-radius: 35px;
+    padding: 15px;
+    margin : 10%;
+    top: 30%;
+    left: 23%;
+    
+}
+
+.left_top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px; 
+    padding: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 19px;
+  
+}
+
+.right_top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px; 
+    font-size: 15px;
+    padding: 15px;
+    color: white;
+    display: flex; 
+    align-items: center; 
+    margin-top: 19px;
+
+}
+   
+
+.login {
+    background-color: skyblue; 
+    color: black; 
+    padding: 10px 30px;
+    border-radius: 5px; 
+}
+
+.name {
+    position: absolute;
+    font-weight: bold;
+    top: -200px; 
+    left: 23%;
+    font-size: 100px;
+}
+
+.gmail,.image,.google_information,.keyboard_icon,.mic_icon,.image_search_icon{ 
+    margin-right: 20px;
+}
+
+.apps_icon,.google_search {
+    margin-right: 30px;
+}
+
+.search_bar {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+}
+
+.search_icon {
+    margin-right: auto; 
+}
+.google_search,.Im_feeling_lucky{
+    background-color: darkgray; 
+    color: white; 
+    padding: 10px 30px;
+    border-radius: 5px; 
+}
+
+.center_options {
+    position:absolute; 
+    display: flex; 
+    align-items: center; 
+    top: 80px; 
+    left: 130px; 
+}
