@@ -51,35 +51,27 @@ body{
     
 }
 
-.search {
-    width: 1000px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 #textbox {
-    border: 0.3px solid rgb(208, 232, 247);
+    border: 0px;
     border-radius: 20px;
-    width: 500px;
-    height: 40px;
+    width: 400px;
+    height: 10px;
     background-color: #2b2a2d;
-    padding-left: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .acc{
-    width: 1000px;
+    border: 0.3px solid white;
+    border-radius: 30px;
+    width: 600px;
     display: flex;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 15px 400px 53px 45px 20px;
-    height: 65px;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
     font-size: 27px;
-    padding-top: 13px;
-    padding-left: 15px;
+    padding: 13px 20px;
 }
 
 .buttons{
@@ -87,7 +79,7 @@ body{
     display: flex;
     align-items: center;
     margin-top: 30px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #button1, #button2{
@@ -99,8 +91,6 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
+    margin: 10px;
 } 
 
-#button1 {
-    margin-right: 17px;
-}
